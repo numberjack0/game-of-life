@@ -301,6 +301,11 @@
                         <version>3.6</version>
                         <configuration>
                             <reportPlugins>
+								<plugin>
+									<groupId>org.apache.maven.plugins</groupId>
+									<artifactId>maven-site-plugin</artifactId>
+									<version>3.6</version>
+								</plugin>
                                 <plugin>
                                     <artifactId>maven-project-info-reports-plugin</artifactId>
                                     <version>2.7</version>
