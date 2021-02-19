@@ -413,14 +413,15 @@
                                     <version>2.4</version>
                                 </plugin>
                             </reportPlugins>
-                        </configuration>
-                        <dependencies>
+							<dependencies>
                             <dependency>
                                 <groupId>com.wakaleo.gameoflife</groupId>
                                 <artifactId>gameoflife-build</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
-                        </dependencies>
+							</dependencies>
+                        </configuration>
+            
                     </plugin>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
